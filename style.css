@@ -346,13 +346,23 @@ margin-top: 100px;
     justify-content: space-evenly;
 }
 
+.web-projects-parent{
+    /* border: 1px solid #fe715a; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   margin-top: 40px;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
 .project-box-1{
     
-  
-    
+  /* margin-top: 0px;
+    margin-bottom: 0px; */
     height: 350px;
     border-radius: 10px;
-    width: 20%;
+    width: 30%;
     border: 1px solid #fe715a;
 
 }
@@ -388,8 +398,20 @@ margin-left: 10px;
     
    
     width: 2px;
-    height: 400px;
+    height: 800px;
     background-color: #fe715a;
     
+}
+
+
+.mobile-projects-parent{
+    /* border: 1px solid #fe715a; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+
+    width: 40%;
+    flex-wrap: wrap;
 }
 
